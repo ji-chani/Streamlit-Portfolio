@@ -4,12 +4,12 @@ import os
 from ziko_st_toc import table_of_contents
 
 # --------- IMAGE PATHS ---------
-IMG_FSL = './resources/photo_live_fsl.png'
-IMG_BC = './resources/photo_breastcancer.png'
-IMG_SP = './resources/photo_sp.png'
-IMG_HVG = './resources/photo_hvg.png'
-IMG_DSS = './resources/photo_dss.png'
-IMG_TOP = './resources/photo_topopy.png'
+IMG_FSL = './resources/research/photo_live_fsl.png'
+IMG_BC = './resources/research/photo_breastcancer.png'
+IMG_SP = './resources/research/photo_sp.png'
+IMG_HVG = './resources/research/photo_hvg.png'
+IMG_DSS = './resources/research/photo_dss.png'
+IMG_TOP = './resources/research/photo_topopy.png'
 
 st.set_page_config(
     page_title="CBJ Portfolio",
@@ -23,7 +23,7 @@ with st.sidebar:
 
 
 # -------- RESEARCH ---------
-st.subheader("Research", divider="gray")
+st.subheader("Research and Projects", divider="gray")
 st.caption(':red[Click "Read More" in each item to learn more about them!]')
 
 if "title" not in st.session_state:

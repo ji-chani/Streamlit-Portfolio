@@ -9,9 +9,9 @@ st.set_page_config(
 )
 
 # --------- IMAGE PATHS ---------
-IMG_BOP = "./resources/photo_bop.png"
-IMG_OSP = "./resources/photo_osp.png"
-IMG_FN = "./resources/photo_finalist.png"
+IMG_BOP = "./resources/awards/photo_bop.png"
+IMG_OSP = "./resources/awards/photo_osp.png"
+IMG_FN = "./resources/awards/photo_finalist.png"
 # -------------------------------------
 
 # -------- SIDEBAR -------------
